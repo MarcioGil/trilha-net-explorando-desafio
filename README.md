@@ -18,11 +18,15 @@ O seu programa deverá calcular corretamente os valores dos métodos da classe R
 
 ## Solução
 
-Durante o desenvolvimento, fizemos ajustes para garantir que o código rodasse corretamente no Visual Studio Code, como:
-- Remoção de acentos para evitar problemas de compilação.
-- Organização da estrutura de arquivos dentro do projeto.
-- Correção de pequenos detalhes de nomenclatura.
+🔧 Durante o desenvolvimento, realizei alguns ajustes para garantir que o código rodasse corretamente no Visual Studio Code, entre eles:
 
+Remoção de acentos em nomes de classes, variáveis e namespaces, evitando erros de compilação que podem ocorrer em diferentes terminais.
+
+Organização da estrutura de arquivos do projeto, movendo cada classe para sua respectiva pasta (Models, Program.cs, etc.), deixando o código mais limpo e fácil de manter.
+
+Ajustes de nomenclatura, como garantir que os nomes de classes e métodos seguissem o padrão PascalCase, evitando conflitos e melhorando a legibilidade.
+
+Correção de referências entre arquivos, ajustando using e namespaces para que o Visual Studio Code reconhecesse todas as classes sem conflitos.
 ---
 
 Este projeto faz parte da **Trilha .NET da DIO** e foi proposto pelo professor [Leonardo Buta](https://www.linkedin.com/in/leonardo-buta/), responsável pela explicação e disponibilização do repositório original:  
