@@ -17,60 +17,20 @@ O seu programa deverá calcular corretamente os valores dos métodos da classe R
 ![Diagrama de classe hotel](diagrama_classe_hotel.png)
 
 ## Solução
-O código inicial do projeto estava incompleto e continha marcações `TODO` a serem implementadas.  
-As principais implementações realizadas foram:
 
-- **Classe Reserva**
-  - Implementação da validação de capacidade da suíte em relação ao número de hóspedes.
-  - Implementação do método `ObterQuantidadeHospedes()`, que retorna a quantidade de hóspedes cadastrados.
-  - Implementação do método `CalcularValorDiaria()`, com regra de desconto de 10% para reservas de 10 dias ou mais.
-  - Tratamento de exceções para cenários inválidos (ex.: cadastrar hóspedes sem suite definida).
-
-- **Program.cs**
-  - Exibição dos resultados no console.
-  - Melhoria na saída formatando o valor da diária como moeda (`:C`).
-
-- **Projeto**
-  - Atualização do projeto para rodar em **.NET 8**, garantindo compatibilidade com a versão mais recente.
-  - Manutenção da estrutura original do desafio para seguir os padrões propostos pela DIO.
-
-Com essas alterações, o programa agora é **plenamente funcional** e segue todas as regras definidas no enunciado do desafio.
-
+Durante o desenvolvimento, fizemos ajustes para garantir que o código rodasse corretamente no Visual Studio Code, como:
+- Remoção de acentos para evitar problemas de compilação.
+- Organização da estrutura de arquivos dentro do projeto.
+- Correção de pequenos detalhes de nomenclatura.
 
 ---
 
-## Como executar o projeto
+Este projeto faz parte da **Trilha .NET da DIO** e foi proposto pelo professor [Leonardo Buta](https://www.linkedin.com/in/leonardo-buta/), responsável pela explicação e disponibilização do repositório original:  
+👉 [Repositório original](https://github.com/digitalinnovationone/trilha-net-explorando-desafio)
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/MarcioGil/trilha-net-explorando-desafio.git
+---
 
-cd trilha-net-explorando-desafio
+📌 Repositório com minha solução: [MarcioGil/trilha-net-explorando-desafio](https://github.com/MarcioGil/trilha-net-explorando-desafio)
 
-dotnet run
-
-Hospedes: 2
-Valor diaria: R$ 150,00
-Valor total: R$ 300,00
-
-Tecnologias utilizadas
-
-.NET 8
-
-C#
-
-Programação Orientada a Objetos (POO)
-
-Git e GitHub
-
-Créditos e informações pessoais
-
-Este projeto faz parte da Trilha .NET da DIO e foi proposto pelo professor Leonardo Buta, responsável pela explicação e disponibilização do repositório original:
-👉 Repositório original
-
-Implementação e versão personalizada por:
-Márcio Alexandre de Paiva Gil
-🔗 GitHub: MarcioGil
-
-📧 Email: (marciopaiva.gil@gmail.com)
-🌐 Repositório com minha solução: https://github.com/MarcioGil/trilha-net-explorando-desafio.git
+👤 Autor: **Márcio Alexandre de Paiva Gil**  
+🌐 Portfólio: [https://marciogil.github.io/meu-portfolio_profissional/](https://marciogil.github.io/meu-portfolio_profissional/)
